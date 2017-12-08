@@ -1,0 +1,17 @@
+{
+  "name": "sshautoblocker",
+  "version": "1.0.0",
+  "description": "cat /var/log/auth.log | grep \"Failed password for\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.3",
+    "request": "^2.83.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "authLogFile": "/var/log/auth.log",
+    "iptablesStateCommand": "iptables-save",
+    "ipPlaceholder": "%IP%",
+    "banCommand": "iptables -A INPUT -s %IP% -j DROP",
+    "lookbehindMinutes": 180,
+    "maxShotsPerIp": 5
+}
